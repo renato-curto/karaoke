@@ -1,0 +1,557 @@
+    1  su -
+    2  sudo apt update
+    3  nvidia-smi
+    4  apt list nvidia-smi
+    5  sudo apt install nvidia-smi
+    6  sudo journalctl -b -u systemd-modules-load.service
+    7  sudo modprobe nvidia
+    8  ls /var/lib/shim-signed/mok/
+    9  sudo mkdir -p /var/lib/shim-signed/mok/
+   10  sudo tar -zxf MOK@ThinkPad.tar.gz -C /var/lib/shim-signed/mok/
+   11  sudo mokutil --list-new
+   12  sudo dmesg | grep cert
+   13  apt list -a sbsigntool
+   14  sudo apt install sbsigntool
+   15  sudo sbsign --key /var/lib/shim-signed/mok/MOK.priv --cert /var/lib/shim-signed/mok/MOK.pem /boot/vmlinuz-$(uname -r) --output vmlinuz-$(uname -r)
+   16  sudo mv vmlinuz-$(uname -r) /boot/vmlinuz-$(uname -r)
+   17  sudo reboot
+   18  sudo sbverify --list /boot/vmlinuz-$(uname -r)
+   19  find /lib/modules/$(uname -r)/updates/dkms -name '*.ko' -exec grep -FL '~Module signature appended~' {} \+
+   20  sudo dmesg | grep cert
+   21  sudo modprobe nvidia
+   22  find /lib/modules/$(uname -r)/updates/dkms -name '*.ko' -exec grep -FL '~Module signature appended~' {} \+
+   23  find /lib/modules/$(uname -r)/updates/dkms -name '*.ko'
+   24  sudo sbverify --list /boot/vmlinuz-$(uname -r)
+   25  sudo sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+   26  sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+   27  ls /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+   28  sudo sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+   29  sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko 
+   30  modinfo -n nvidia
+   31  apt list -a kmod
+   32  modinfo -n nvidia
+   33  lsmod | grep nvidia
+   34  ls /usr/src/linux-headers-$(uname -r)/scripts/sign-file
+   35  man kmod
+   36  man modinfo
+   37  modinfo
+   38  sudo modinfo
+   39  sudo modinfo -n nvidia
+   40  sudo modinfo -n nvidia-current
+   41  find /lib/modules/$(uname -r)/updates/dkms -name '*.ko' -exec grep -FL '~Module signature appended~' {} \+
+   42  sudo dmesg | grep cert
+   43  history 
+   44  sudo modprobe nvidia
+   45  nvidia-smi
+   46  sudo journalctl -b -u systemd-modules-load.service
+   47  history 
+   48  sudo sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+   49  ls /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+   50  ls -l /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+   51  ls -l /lib/modules/6.1.0-29-amd64/updates/dkms/
+   52  cd /lib/modules/$(uname -r)/updates/dkms/
+   53  ls
+   54  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-drm.ko 
+   55  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current.ko 
+   56  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-modeset.ko 
+   57  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-peermem.ko 
+   58  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-uvm.ko 
+   59  man bash
+   60  history 
+   61  apt list -a libavcodec-extra
+   62  apt list -a synaptic 
+   63  sudo apt install libavcodec-extra
+   64  history 
+   65  whoami
+   66  apt list nvidia-driver
+   67  apt list no-overview
+   68  apt list  gnome-shell-extension-no-overview
+   69  apt list -a gnome-shell-extension-no-overview
+   70  sudo apt install gnome-shell-extension-no-overview
+   71  history 
+   72  here
+   73  ls 
+   74  l
+   75  cd ~/.local/share/nautilus/scripts/
+   76  ls
+   77  ll
+   78  mv 'New empty file' New\ empty\ file 
+   79  here
+   80  ll
+   81  nautilus -q
+   82  here
+   83  nano ~/.local/share/applications/Games.desktop
+   84  cd
+   85  apt list -a libavcodec-extra
+   86  history | grep codec
+   87  md5sum -c Lux@GitHub.md5 
+   88  md5sum -c Lux.md5 
+   89  lsusb
+   90  journalctl -b | grep bluetooth
+   91  md5sum -c IPT\ 360.md5 
+   92  sudo apt update
+   93  sudo ip route
+   94  sudo ip route del default via 10.2.0.1 dev enp60s0
+   95  sudo apt update
+   96  history | grep mount
+   97  sudo mount -t nfs 192.168.1.1:/home/curto/Samsung/ /home/curto/ThinkPad/
+   98  ping 192.168.1.1
+   99  sudo mount -t nfs 192.168.1.1:/home/curto/Samsung/ /home/curto/ThinkPad/
+  100  sudo ip route
+  101  sudo ip route del default via 10.2.0.1 dev enp60s0
+  102  sudo ip route del default via 192.168.1.1 dev enp60s0 proto
+  103  sudo ip route del default via 192.168.1.1 dev enp60s0 
+  104  cd .config/nautilus/
+  105  here
+  106  nautilus -q
+  107  here
+  108  nautilus -q
+  109  ll
+  110  rm accels 
+  111  history 
+  112  cd .local/share/applications/
+  113  here
+  114  cd /usr/share/i18n/locales/
+  115  ls
+  116  more en_US 
+  117  cp  en_US  ~
+  118  locale paper
+  119  man locale
+  120  date
+  121  ./youtube-dl https://www.youtube.com/watch?v=J9vjwZsmV58
+  122  apt list -a ffmpeg
+  123  sudo apt install ffmpeg
+  124  ./youtube-dl https://www.youtube.com/watch?v=J9vjwZsmV58
+  125  cd GitHub/mpv-copa/lab/
+  126  /usr/bin/python3 ./yt-dlp-2024.12.13 -F https://www.youtube.com/watch?v=U6reD8UVa0E
+  127  /usr/bin/python3 ./yt-dlp-2024.12.13 -f 399 https://www.youtube.com/watch?v=U6reD8UVa0E
+  128  /usr/bin/python3 ./yt-dlp-2024.12.13 -f 140 https://www.youtube.com/watch?v=U6reD8UVa0E
+  129  /usr/bin/python3 ./yt-dlp-2024.12.13 -F https://www.youtube.com/watch?v=LmRrLl8aLfE
+  130  /usr/bin/python3 ./yt-dlp-2024.12.13 -f 251 https://www.youtube.com/watch?v=LmRrLl8aLfE
+  131  git status
+  132  git add -A
+  133  git commit -m "Birthday list update."
+  134  git push
+  135  git status
+  136  git add -A
+  137  git commit -m "Updated shopping list."
+  138  git push
+  139  sudo sbverify --list /boot/vmlinuz-$(uname -r)
+  140  sudo sbsign --key /var/lib/shim-signed/mok/MOK.priv --cert /var/lib/shim-signed/mok/MOK.pem /boot/vmlinuz-$(uname -r) --output vmlinuz-$(uname -r)
+  141  sudo sbverify --list /boot/vmlinuz-$(uname -r)
+  142  sudo sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+  143  sudo reboot
+  144  history 
+  145  sudo sbverify --list /boot/vmlinuz-$(uname -r)
+  146  ls /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+  147  ls
+  148  sudo mv vmlinuz-$(uname -r) /boot/vmlinuz-$(uname -r)
+  149  sudo reboot
+  150  sudo sbverify --list /boot/vmlinuz-$(uname -r)
+  151  sudo sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+  152  sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+  153  sudo sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko
+  154  sbverify --list /lib/modules/6.1.0-29-amd64/updates/dkms/nvidia-current-modeset.ko 
+  155  cd /lib/modules/$(uname -r)/updates/dkms/
+  156  ls
+  157  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-drm.ko
+  158  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current.ko
+  159  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-modeset.ko
+  160  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-peermem.ko
+  161  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-uvm.ko
+  162  sudo reboot
+  163  history 
+  164  ls
+  165  cd GitHub/
+  166  ls
+  167  git status
+  168  git pull
+  169  git checkout release
+  170  git pull
+  171  ls
+  172  git status
+  173  git checkout theta
+  174  git status
+  175  cd
+  176  cd GitHub/
+  177  ls
+  178  cd mpv-copa/
+  179  ls
+  180  cd lab/
+  181  ls
+  182  more youtube-dl 
+  183  ./youtube-dl https://www.youtube.com/watch?v=dWNIl2eW6yA
+  184  ls
+  185  /usr/bin/python3 ./yt-dlp-2024.12.13 -h
+  186  ./youtube-dl https://www.youtube.com/watch?v=CHCbRz7wFjE
+  187  more youtube-dl 
+  188  /usr/bin/python3 ./yt-dlp-2024.12.13 --download-sections "*00:01:00-00:06:00" https://www.youtube.com/watch?v=Ejh3xdyX4SQ
+  189  apt list -a VLC
+  190  sudo apt install vlc
+  191  /usr/bin/python3 ./yt-dlp-2024.12.13 --download-sections "*00:01:00-00:06:00" --recode-video mp4 https://www.youtube.com/watch?v=Ejh3xdyX4SQ
+  192  /usr/bin/python3 ./yt-dlp-2024.12.13 --download-sections "*00:01:00-00:03:00" --recode-video mp4 https://www.youtube.com/watch?v=CHCbRz7wFjE
+  193  /usr/bin/python3 ./yt-dlp-2024.12.13--download-sections "*00:01:00-00:02:00" https://www.youtube.com/watch?v=CHCbRz7wFjE
+  194  sudo apt update
+  195  ls -l yt-*
+  196  chmod ugo+x yt-dlp-2025.03.31 
+  197  ls -l yt-*
+  198  chmod ugo-x yt-dlp-2025.03.31 
+  199  ls -l yt-*
+  200  /usr/bin/python3 ./yt-dlp-2025.03.31 --download-sections "*00:01:00-00:02:00" https://www.youtube.com/watch?v=CHCbRz7wFjE
+  201  /usr/bin/python3 ./youtube-dl-2025.04.08 --download-sections "*00:01:00-00:02:00" https://www.youtube.com/watch?v=CHCbRz7wFjE
+  202  /usr/bin/python3 ./youtube-dl-2025.04.08 https://www.youtube.com/watch?v=CHCbRz7wFjE
+  203  /usr/bin/python3 ./youtube-dl-2025.04.08 https://www.youtube.com/watch?v=_AcgdiEuOZ4
+  204  /usr/bin/python3 ./yt-dlp-2025.03.31 --download-sections "*00:00:00-00:02:00" https://www.youtube.com/watch?v=CHCbRz7wFjE
+  205  apt list -a mpv
+  206  sudo apt install mpv
+  207  mpv GREEN\ FOREST\ SOUNDS\,\ BABBLING\ STREAM\,\ AND\ RELAXING\ BIRDSONG\,\ SOUNDS\ OF\ NATURE\ \[CHCbRz7wFjE\].webm 
+  208  ffmpeg -i CHCbRz7wFjE.webm -c copy output.mp4
+  209  mpv output.mp4 
+  210  ffmpeg -i CHCbRz7wFjE.webm -c:v libx264 -c:a aac -b:a 192k -movflags +faststart output.mp4
+  211  /usr/bin/python3 ./yt-dlp-2025.03.31 --download-sections "*00:00:00-00:02:00" https://www.youtube.com/watch?v=6g3QiE4IB-4
+  212  /usr/bin/python3 ./yt-dlp-2025.03.31 --download-sections "*00:00:00-00:02:00" https://www.youtube.com/watch?v=SgEQrUIKJ6Y
+  213  /usr/bin/python3 ./yt-dlp-2025.03.31 --download-sections "*00:00:00-00:02:00" https://www.youtube.com/watch?v=1wn-OSiNVjE
+  214  /usr/bin/python3 ./yt-dlp-2025.03.31 --download-sections "*00:00:00-00:02:00" https://www.youtube.com/watch?v=XxP8kxUn5bc
+  215  /usr/bin/python3 ./yt-dlp-2025.03.31 --download-sections "*00:00:00-00:02:00" https://www.youtube.com/watch?v=3Fpfpu_JogU
+  216  ffmpeg -i 1wn-OSiNVjE.webm -c:v libx264 -c:a aac -b:a 192k -movflags +faststart 1wn-OSiNVjE.mp4
+  217  ffmpeg -i 3Fpfpu_JogU.webm -c:v libx264 -c:a aac -b:a 192k -movflags +faststart 3Fpfpu_JogU.mp4
+  218  ffmpeg -i 6g3QiE4IB-4.webm -c:v libx264 -c:a aac -b:a 192k -movflags +faststart 6g3QiE4IB-4.mp4
+  219  ffmpeg -i CHCbRz7wFjE.webm -c:v libx264 -c:a aac -b:a 192k -movflags +faststart CHCbRz7wFjE.mp4
+  220  ffmpeg -i SgEQrUIKJ6Y.webm -c:v libx264 -c:a aac -b:a 192k -movflags +faststart SgEQrUIKJ6Y.mp4
+  221  cd ..
+  222  git status
+  223  git add -A
+  224  git commit -m "Updating tools."
+  225  git push
+  226  ls .ssh/
+  227  ln -s .ssh/known_hosts .ssh/known_hosts2 
+  228  ls .ssh/
+  229  ls -l
+  230  ll .ssh/
+  231  cd .ssh/
+  232  rm known_hosts2 
+  233  ln -s known_hosts known_hosts2 
+  234  ls
+  235  more known_hosts
+  236  nano known_hosts
+  237  ls
+  238  rm known_hosts2 
+  239  cp known_hosts known_hosts_bak
+  240  ls ~/.ssh/known_hosts
+  241  nano known_hosts
+  242  ls
+  243  ssh -v -L 4200:10.20.2.197:4200 -L 5432:10.20.2.197:5432 -L 6379:10.20.2.197:6379 -L 9200:10.20.2.197:9200 -L 9589:10.20.2.197:9589 -L 9590:10.20.2.197:9590 -L 9591:10.20.2.197:9591 agdevops@ipt.64-1c-67-e9-d6-bb@cloud.shellhub.io
+  244  curl http://localhost/utils/tipologradouro
+  245  sudo apt install curl
+  246  curl http://localhost/utils/tipologradouro
+  247  curl http://localhost:4200/register
+  248  curl http://localhost/utils/tipologradouro
+  249  curl http://localhost:9589/utils/tipologradouro
+  250  ssh -v -L 4200:10.20.2.197:4200 -L 5432:10.20.2.197:5432 -L 6379:10.20.2.197:6379 -L 9200:10.20.2.197:9200 -L 9589:10.20.2.197:9589 -L 9590:10.20.2.197:9590 -L 9591:10.20.2.197:9591 agdevops@ipt.64-1c-67-e9-d6-bb@cloud.shellhub.io
+  251  iconv -f utf-8 -t utf-8 insert\ into\ staticlists.sql
+  252  iconv -f WINDOWS-1252 -t insert\ into\ staticlists.sql
+  253  iconv -f WINDOWS-1252 -t UTF-8 insert\ into\ staticlists.sql
+  254  iconv -f utf-8 -t utf-8 insert\ into\ staticlists.sql
+  255  iconv -f utf-8 -t utf-8 insert\ into\ staticlists.sql -o /dev/null 
+  256  recode utf-8..utf-8 insert\ into\ staticlists.sql 
+  257  apt list -a recode
+  258  sudo apt install recode
+  259  recode utf-8..utf-8 insert\ into\ staticlists.sql 
+  260  iconv -f utf-8 -t utf-8 05-DATA.SQL 
+  261  iconv -f utf-8 -t utf-8 05-DATA.SQL -o /dev/null 
+  262  iconv -f WINDOWS-1252 -t UTF-8 05-DATA.SQL -o /dev/null 
+  263  iconv -f WINDOWS-1252 -t UTF-8 05-DATA.SQL
+  264  ls
+  265  iconv -f UTF-8 -t UTF-8 05-DATA.SQL
+  266  iconv -f WINDOWS-1252 -t UTF-8 05-DATA.SQL
+  267  iconv -f WINDOWS-1252 -t UTF-8 insert\ into\ staticlists.sql 
+  268  iconv -f UTF-8 -t UTF-8 05-DATA.SQL
+  269  git status
+  270  git add -A
+  271  git status
+  272  history | grep commit
+  273  git commit -m "Birthday list update."
+  274  git push
+  275  history
+  276  history | grep yt
+  277  pip
+  278  history | grep env
+  279  history | grep python
+  280  python3 -m venv karaoke-venv
+  281  sudo apt update
+  282  apt install python3.11-venv
+  283  sudo apt install python3.11-venv
+  284  history | grep update
+  285  sudo apt update
+  286  python3 -version
+  287  python3 -v
+  288  python3 -h
+  289  python3 -V
+  290  sudo apt install python3-venv
+  291  python3 -m venv karaoke-venv
+  292  ls /var/lib/apt/lists/
+  293  sudo apt clean
+  294  sudo apt update
+  295  sudo apt install python3-venv
+  296  ls /var/lib/apt/lists/
+  297  ls /var/lib/apt/lists/auxfiles/
+  298  ls /var/lib/apt/lists/partial/
+  299  sudo ls /var/lib/apt/lists/partial/
+  300  sudo rm -rf /var/lib/apt/lists/*
+  301  sudo apt update
+  302  apt list --upgradable
+  303  sudo apt install python3-venv
+  304  python3 -m venv karaoke-venv
+  305  source karaoke-venv/bin/activate
+  306  pip install --upgrade pip setuptools wheel
+  307  pip install spleeter
+  308  spleeter separate -i Nóis\ Bebe\ É\ Guaraná.webm -p spleeter:2stems -o output/
+  309  spleeter separate -i 'Nóis Bebe É Guaraná.webm' -p spleeter:2stems -o output/
+  310  spleeter --help
+  311  spleeter separate -i 'Nóis Bebe É Guaraná.webm' -p spleeter:2stems -o output/
+  312  spleeter separate -p spleeter:2stems -o output/ 'Nóis Bebe É Guaraná.webm' 
+  313  pip install git+https://github.com/openai/whisper.git
+  314  whisper 'Nóis Bebe É Guaraná.webm' --language Portuguese --task transcribe --output_format srt
+  315  ffmpeg -i accompaniment.wav -vf subtitles=musica.srt karaoke_final.mp4
+  316  ffmpeg -i accompaniment.wav -vf subtitles=subtitles.srt karaoke_final.mp4
+  317  ffmpeg -loop 1 -i fundo.png -i accompaniment.wav -vf subtitles=subtitles.srt -shortest karaoke.mp4
+  318  ffmpeg -i 'Nóis Bebe É Guaraná.webm' -o musica.wav
+  319  ffmpeg -i 'Nóis Bebe É Guaraná.webm' musica.wav
+  320  ffmpeg -loop 1 -i fundo.png -i musica.wav -vf subtitles=subtitles.srt -shortest karaoke.mp4
+  321  nvidia-smi
+  322  pwd
+  323  ls cudnn-local-repo-debian11-8.9.7.29_1.0-1_amd64.deb 
+  324  sudo dpkg -i cudnn-local-repo-debian11-8.9.7.29_1.0-1_amd64.deb
+  325  sudo cp /var/cudnn-local-repo-debian11-8.9.7.29/cudnn-local-9EAC560A-keyring.gpg /usr/share/keyrings/
+  326  sudo apt update
+  327  sudo apt install cudnn
+  328  sudo apt install libcudnn8 libcudnn8-dev libcudnn8-samples
+  329  ffmpeg -loop 1 -i backgroung.png -i musica_vocals.mp3 karaoke_bbg.mp4
+  330  ffmpeg -loop 1 -i backgroung.png -i musica_vocals.mp3 -shortest karaoke_bbg.mp4
+  331  history 
+  332  source karaoke-venv/bin/activate
+  333  whisper musica_vocals.mp3 --language Portuguese --task transcribe --model=large --output_format srt
+  334  ffmpeg -loop 1 -i backgroung.png -i musica.wav -vf subtitles=musica_vocals.srt -shortest musica_vocals.mp4
+  335  ffmpeg -loop 1 -i backgroung.png -i musica.wav -vf subtitles=musica_music.srt -shortest musica_music.mp4
+  336  ffmpeg -loop 1 -i backgroung.png -i musica_music.wav -vf subtitles=musica_vocals.srt -shortest musica_music.mp4
+  337  ffmpeg -loop 1 -i backgroung.png -i musica_music.mp3 -vf subtitles=musica_vocals.srt -shortest musica_music.mp4
+  338  history | grep list
+  339  apt list -a espeak
+  340  sudo apt install espeak
+  341  pip install git+https://github.com/m-bain/whisperx.git
+  342  deactivate
+  343  python3 -m venv whisperx-env
+  344  source whisperx-env/bin/activate
+  345  pip install --upgrade pip
+  346  pip install git+https://github.com/m-bain/whisperx.git
+  347  whisperx musica_vocals.mp3 --output_dir ./saida --model large-v2 --language pt --align_model WAV2VEC2 --device cpu --output_format json
+  348  deactivate
+  349  python3 -m venv whisperx-env
+  350  source whisperx-env/bin/activate
+  351  pip install --upgrade pip
+  352  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+  353  pip install git+https://github.com/m-bain/whisperx.git
+  354  whisperx musica_vocals.mp3 --output_dir ./saida --model large-v2 --language pt --align_model WAV2VEC2 --device cuda --output_format json
+  355  #whisperx musica_vocals.mp3 --output_dir ./saida --model large-v2 --language pt --align_model facebook/wav2vec2-large-960h-lv60-self" --device cuda --output_format json
+  356  clear
+  357  whisperx musica_vocals.mp3 --output_dir ./saida --model large-v2 --language pt --align_model facebook/wav2vec2-large-960h-lv60-self" --device cuda --output_format json
+  358  whisperx musica_vocals.mp3 --output_dir ./saida --model large-v2 --language pt --align_model "facebook/wav2vec2-large-960h-lv60-self" --device cuda --output_format json
+  359  whisperx musica_vocals.mp3 --output_dir ./saida --model large-v2 --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --device cuda --output_format json
+  360  python3 whisperx.py 
+  361  python3 whisperX.py 
+  362  deactivate 
+  363  source whisperx-env/bin/activate
+  364  python3 whisperX.py 
+  365  rm -rf __pycache__ *.pyc
+  366  python3 whisperX.py 
+  367  nano whisperX.py 
+  368  pip show whisperx
+  369  which python
+  370  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  371  history 
+  372  pip install --upgrade --no-deps --force-reinstall git+https://github.com/m-bain/whisperx.git
+  373  pip install --upgrade transformers huggingface-hub
+  374  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  375  whisperx musica_vocals.mp3 --model large --language pt --align_model ~curto/.cache/huggingface/hub/models--jonatasgrosman--wav2vec2-large-xlsr-53-portuguese
+  376  whisperx musica_vocals.mp3 --model large --language pt --align_model /home/curto/.cache/huggingface/hub/models--jonatasgrosman--wav2vec2-large-xlsr-53-portuguese
+  377  ls -l /home/curto/.cache/huggingface/hub/mod
+  378  pip install huggingsound
+  379  whisperx musica_vocals.mp3 --model large --language pt
+  380  curl -v https://huggingface.co
+  381  deactivate
+  382  python3 -m venv whisperx-env
+  383  source whisperx-env/bin/activate
+  384  pip install git+https://github.com/m-bain/whisperx.git
+  385  whisperx musica_vocals.mp3 --model tiny --language pt
+  386  whisperx musica_vocals.mp3 --model large --language pt
+  387  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  388  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --output_format ass
+  389  python3 ass.py 
+  390  history | grep ffmpeg
+  391  ffmpeg -loop 1 -i backgroung.png -i musica_music.mp3 -vf "ass=musica_vocals.ass" -shrotest musica_music2.mp4
+  392  ffmpeg -loop 1 -i backgroung.png -i musica_music.mp3 -vf "ass=musica_vocals.ass" -shortest musica_music2.mp4
+  393  ffmpeg -loop 1 -i backgroung.png -i musica.mp3 -vf "ass=musica_vocals.ass" -shortest musica_music2.mp4
+  394  ffmpeg -loop 1 -i backgroung.png -i musica.wav -vf "ass=musica_vocals.ass" -shortest musica_music2.mp4
+  395  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_final.mp4
+  396  ffmpeg -loop 1 -i backgroung.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_final.mp4
+  397  python3 ass.py 
+  398  ffmpeg -loop 1 -i backgroung.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_final.mp4
+  399  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_final.mp4
+  400  python3 ass.py 
+  401  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=filename='musica_vocals.ass':charenc=UTF-8" -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_final.mp4
+  402  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_karaoke.mp4
+  403  python3 ass.py 
+  404  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_karaoke.mp4
+  405  python3 ass.py 
+  406  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_karaoke.mp4
+  407  python3 ass.py 
+  408  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_karaoke.mp4
+  409  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_karaoke.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_karaoke.mp4
+  410  history 
+  411  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --output_dir ./saida
+  412  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_karaoke.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest output_karaoke.mp4
+  413  ./generator 
+  414  pip install moviepy
+  415  ./generator 
+  416  pip install moviepy.editor
+  417  ./generator 
+  418  python -c "import moviepy.editor as mp; print('MoviePy funcionando')"
+  419  ./generator 
+  420  python3 generator musica_vocals.json musica_vocals.mp3 
+  421  python3 generator musica_vocals.json musica_vocals.mp3 -0.5
+  422  python3 generator musica_vocals.json musica_vocals.mp3 -0.8
+  423  history whisperx
+  424  history | grep whisperx
+  425  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --output_format ass
+  426  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  427  history
+  428  python3 karaoke.py 
+  429  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  430  whisperx --help
+  431  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  432  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --initial_prompt "Cachaça"
+  433  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --initial_prompt "Nóis Cachaça"
+  434  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --initial_prompt "Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça deixa de fogo e faz a gente brigar Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça atrapalha a voz e nóis gosta de cantar Nóis não gosta de cachaça, não adianta oferecer Eu não quero ficar tonto, pra que é que eu vou beber? Sem cerveja e sem cachaça a gente faz a folia Fico tonto de emoção e me embriago de alegria Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça deixa de fogo e faz a gente brigar Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça atrapalha a voz e nóis gosta de cantar Outro dia meu amigo encheu a cara de cerveja Dançou rock a noite inteira achando que era sertaneja Foi embora embriagado, cambaleando na rua Entrou na casa dos outros achando que era sua. Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça deixa de fogo e faz a gente brigar. Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça atrapalha a voz e nós gosta de cantar. Nóis não gosta de cachaça, não adianta oferecer Eu não quero ficar tonto, pra que é que eu vou beber? Sem cerveja e sem cachaça a gente faz a folia Fico tonto de emoção e me embriago de alegria Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça deixa de fogo e faz a gente brigar Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça atrapalha a voz e nós gosta de cantar Outro dia meu amigo encheu a cara de cerveja Dançou rock a noite inteira achando que era sertaneja Foi embora embriagado, cambaleando na rua Entrou na casa dos outros achando que era sua Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça deixa de fogo e faz a gente brigar Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça atrapalha a voz E nóis gosta de cantar Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça deixa de fogo e faz a gente brigar Nóis bebe é Guaraná, nóis bebe é Guaraná Cachaça atrapalha a voz e nóis gosta de cantar Nóis bebe é Guaraná!"
+  435  whisperx musica_vocals.mp3 --model large-V2 --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  436  whisperx musica_vocals.mp3 --model large-v3 --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  437  python3 karaoke.py 
+  438  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  439  python3 karaoke.py 
+  440  ffmpeg -loop 1 -i background.png -i musica.wav -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  441  ffmpeg -loop 1 -i background.png -i musica_music.wav -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  442  ffmpeg -loop 1 -i background.png -i musica_music.mp3 -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  443  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --output_format ass
+  444  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  445  ffmpeg -loop 1 -i background.png -i musica_music.mp3 -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  446  deactivate
+  447  python3 json2ass.py 
+  448  ffmpeg -loop 1 -i background.png -i musica_music.mp3 -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  449  ffmpeg -loop 1 -i background.jpg -i musica_music.mp3 -vf "ass=musica_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  450  python3 json2ass.py 
+  451  clear
+  452  python3 json2ass.py 
+  453  history | grep whisper
+  454  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  455  history | grep source
+  456  source whisperx-env/bin/activate
+  457  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
+  458  whisperx --help
+  459  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --segment_resolution 53
+  460  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --max_line_width 53
+  461  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --vad_filter True --vad_onset 0.5 --vad_offset 0.5
+  462  source whisperx-env/bin/activate
+  463  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --vad_filter True --vad_onset 0.5 --vad_offset 0.5
+  464  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --vad_onset 0.5 --vad_offset 0.5
+  465  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --vad_onset 0.4 --vad_offset 0.6
+  466  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --vad_onset 0.4 --vad_offset 0.6 --chunk_size 30
+  467  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --vad_onset 0.4 --vad_offset 0.4 --chunk_size 30
+  468  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --vad_onset 0.2 --vad_offset 0.2 --chunk_size 30
+  469  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --vad_onset 0.9 --vad_offset 0.9 --chunk_size 30
+  470  history 
+  471  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-drm.ko
+  472  cd /lib/modules/$(uname -r)/updates/dkms/
+  473  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-drm.ko
+  474  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current.ko
+  475  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-modeset.ko
+  476  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-peermem.ko
+  477  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der nvidia-current-uvm.ko
+  478  sudo reboot
+  479  source whisperx-env/bin/activate
+  480  whisperx musica_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --chunk_size 30 --max_line_width 55
+  481  sudo apt update
+  482  history | grep apt
+  483  apt list --upgradable
+  484  sudo apt update
+  485  source whisperx-env/bin/activate
+  486  whisperx musica_vocals.mp3   --model large   --language pt   --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese   --chunk_size 20   --vad_filter True   --segment_resolution sentence   --max_line_width 40   --max_line_count 2
+  487  source whisperx-env/bin/activate
+  488  whisperx musica_vocals.mp3   --model large   --language pt   --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese   --chunk_size 20   --vad_filter True   --segment_resolution sentence   --max_line_width 40   --max_line_count 2
+  489  whisperx musica_vocals.mp3   --model large   --language pt   --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese   --chunk_size 20   --segment_resolution sentence   --max_line_width 53   --max_line_count 2
+  490  whisperx musica_vocals.mp3   --model large   --language pt   --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --segment_resolution sentence
+  491  python3 aligner.py 
+  492  pip install aeneas
+  493  pip uninstall aeneas
+  494  pip install aeneas-espeakng
+  495  pip install aeneas
+  496  apt list -a libsndfile1
+  497  apt list -a sox
+  498  apt list -a unzip
+  499  apt list -a curl
+  500  sudo apt install sox
+  501  python3 -m pip install --user pipx
+  502  sudo apt install python3-pip
+  503  python3 -m pip install --user pipx
+  504  sudo apt install pipx
+  505  pipx ensurepath
+  506  source ~/.bashrc
+  507  pipx --version
+  508  pipx install montreal-forced-aligner
+  509  mfa --help
+  510  pipx uninstall montreal-forced-aligner
+  511  pipx install montreal-forced-aligner --include-deps
+  512  mfa --version
+  513  pipx uninstall montreal-forced-aligner
+  514  history 
+  515  sudo apt purge pipx
+  516  source ~/.bashrc
+  517  apt list -a espeak-ng
+  518  apt list -a python3-dev
+  519  apt list -a build-essential
+  520  sudo apt install espeak-ng
+  521  sudo apt install espeak-ng-dev
+  522  sudo apt install libespeak-ng-dev
+  523  apt list -a miniconda
+  524  conda
+  525  fmpeg -i musica_vocals.mp3 -ar 16000 -ac 1 musica.wav
+  526  ffmpeg -i musica_vocals.mp3 -ar 16000 -ac 1 musica.wav
+  527  head guarana/*.txt
+  528  cd ..
+  529  head guarana/*.txt
+  530  soxi guarana/*.wav
+  531  file guarana/musica_vocals.txt
+  532  wc -l guarana/musica_vocals.txt
+  533  head -10 guarana/musica_vocals.txt
+  534  echo "---"
+  535  tail -10 guarana/musica_vocals.txt
+  536  grep -n "^$" guarana/musica_vocals.txt
+  537  mfa clean
+  538  cd
+  539  ls
+  540  cd Music/
+  541  ls
+  542  source whisperx-env/bin/activate
+  543  deactivate
+  544  cd guarana_aligned/
+  545  python3 json_to_ass.py 
+  546  python3 json_to_ass.py letra.json letra.ass
+  547  ffmpeg -loop 1 -i background.jpg -i musica.wav -vf "ass=letra.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  548  python3 json_to_ass.py letra.json letra.ass
+  549  ffmpeg -loop 1 -i background.jpg -i musica.wav -vf "ass=letra.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  550  python3 json_to_ass.py letra.json letra.ass
+  551  ffmpeg -loop 1 -i background.jpg -i musica.wav -vf "ass=letra.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  552  ffmpeg -loop 1 -i background.jpg -i musica_music.mp3 -vf "ass=letra.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  553  ./textGrid2json.py 
+  554  ffmpeg -loop 1 -i background.jpg -i musica_music.mp3 -vf "ass=xxx.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  555  ffmpeg -loop 1 -i background.jpg -i musica.wav -vf "ass=xxx.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  556  ffmpeg -loop 1 -i background.jpg -i musica_music.mp3 -vf "ass=xxx.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest musica.mp4
+  557  history > history2
