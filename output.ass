@@ -1,0 +1,57 @@
+[Script Info]
+Title: Legendas Convertidas
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,21,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
+Style: Credits,Arial,21,&H0000FFFF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,2,2,5,10,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:13.53,Credits,,0,0,0,,César Menotti & Fabiano - Nóis Bebe é Guaraná
+Dialogue: 0,0:00:00.00,0:00:13.53,Credits,,0,0,0,,Legendado por Renato Curto Rodrigues
+Dialogue: 0,0:00:13.53,0:00:17.74,Default,,0,0,0,,{\k100}{\k20}Nóis {\k28}bebe {\k12}é {\k114}Guaraná, {\k20}nóis {\k29}bebe {\k12}é {\k86}Guaraná 
+Dialogue: 0,0:00:16.74,0:00:21.29,Default,,0,0,0,,{\k100}{\k63}Cachaça {\k44}deixa {\k13}de {\k63}fogo {\k6}e {\k32}faz {\k14}a {\k44}gente {\k76}brigar 
+Dialogue: 0,0:00:20.42,0:00:24.58,Default,,0,0,0,,{\k100}{\k19}Nóis {\k28}bebe {\k6}é {\k117}Guaraná, {\k20}nóis {\k29}bebe {\k11}é {\k86}Guaraná 
+Dialogue: 0,0:00:23.58,0:00:27.83,Default,,0,0,0,,{\k100}{\k58}Cachaça {\k64}atrapalha {\k3}a {\k54}voz {\k22}e {\k17}nóis {\k40}gosta {\k16}de {\k51}cantar 
+Dialogue: 0,0:00:26.83,0:00:31.25,Default,,0,0,0,,{\k100}{\k43}Nóis {\k22}não {\k41}gosta {\k17}de {\k66}Cachaça, {\k27}não {\k50}adianta {\k76}oferecer 
+Dialogue: 0,0:00:30.47,0:00:34.68,Default,,0,0,0,,{\k100}{\k18}Eu {\k18}não {\k42}quero {\k48}ficar {\k40}tonto, {\k20}pra {\k18}que {\k24}é {\k10}que {\k18}eu {\k20}vou {\k45}beber? 
+Dialogue: 0,0:00:33.83,0:00:38.11,Default,,0,0,0,,{\k100}{\k22}Sem {\k59}cerveja {\k7}e {\k21}sem {\k79}Cachaça {\k6}a {\k43}gente {\k29}faz {\k10}a {\k52}folia 
+Dialogue: 0,0:00:37.11,0:00:41.69,Default,,0,0,0,,{\k100}{\k60}Fico {\k45}tonto {\k11}de {\k61}emoção {\k14}e {\k9}me {\k75}embriago {\k9}de {\k74}alegria 
+Dialogue: 0,0:00:40.92,0:00:45.03,Default,,0,0,0,,{\k100}{\k24}Nóis {\k29}bebe {\k9}é {\k114}Guaraná, {\k20}nóis {\k28}bebe {\k13}é {\k74}Guaraná 
+Dialogue: 0,0:00:44.03,0:00:48.63,Default,,0,0,0,,{\k100}{\k76}Cachaça {\k41}deixa {\k15}de {\k62}fogo {\k8}e {\k30}faz {\k14}a {\k42}gente {\k72}brigar 
+Dialogue: 0,0:00:47.82,0:00:51.90,Default,,0,0,0,,{\k100}{\k22}Nóis {\k26}bebe {\k11}é {\k112}Guaraná, {\k16}nóis {\k33}bebe {\k10}é {\k78}Guaraná 
+Dialogue: 0,0:00:50.90,0:00:55.28,Default,,0,0,0,,{\k100}{\k69}Cachaça {\k63}atrapalha {\k3}a {\k51}voz {\k16}e {\k27}nóis {\k41}gosta {\k15}de {\k53}cantar 
+Dialogue: 0,0:00:54.47,0:00:58.76,Default,,0,0,0,,{\k100}{\k39}Outro {\k44}dia {\k22}meu {\k51}amigo {\k42}encheu {\k7}a {\k48}cara {\k17}de {\k59}cerveja 
+Dialogue: 0,0:00:57.92,0:01:02.12,Default,,0,0,0,,{\k100}{\k35}Dançou {\k34}rock {\k10}a {\k31}noite {\k48}inteira {\k47}achando {\k15}que {\k23}era {\k77}sertaneja 
+Dialogue: 0,0:01:01.12,0:01:05.45,Default,,0,0,0,,{\k100}{\k48}Foi {\k45}embora {\k92}embriagado, {\k92}cambaleando {\k14}na {\k42}rua 
+Dialogue: 0,0:01:04.71,0:01:09.04,Default,,0,0,0,,{\k100}{\k44}Entrou {\k17}na {\k45}casa {\k29}dos {\k41}outros {\k60}achando {\k29}que {\k25}era {\k43}sua 
+Dialogue: 0,0:01:08.04,0:01:12.44,Default,,0,0,0,,{\k100}{\k58}Nóis {\k28}bebe {\k8}é {\k110}Guaraná, {\k24}nóis {\k26}bebe {\k9}é {\k77}Guaraná 
+Dialogue: 0,0:01:11.44,0:01:16.15,Default,,0,0,0,,{\k100}{\k77}Cachaça {\k42}deixa {\k16}de {\k63}fogo {\k7}e {\k31}faz {\k12}a {\k42}gente {\k81}brigar 
+Dialogue: 0,0:01:15.29,0:01:19.42,Default,,0,0,0,,{\k100}{\k18}Nóis {\k28}bebe {\k11}é {\k112}Guaraná, {\k21}nóis {\k26}bebe {\k12}é {\k85}Guaraná 
+Dialogue: 0,0:01:18.42,0:01:23.12,Default,,0,0,0,,{\k100}{\k59}Cachaça {\k66}atrapalha {\k2}a {\k51}voz {\k16}e {\k24}nóis {\k43}gosta {\k17}de {\k92}cantar 
+Dialogue: 0,0:01:35.59,0:01:39.70,Default,,0,0,0,,{\k100}{\k21}Nóis {\k19}não {\k40}gosta {\k13}de {\k77}Cachaça, {\k25}não {\k47}adianta {\k69}oferecer 
+Dialogue: 0,0:01:38.99,0:01:43.14,Default,,0,0,0,,{\k100}{\k18}Eu {\k16}não {\k47}quero {\k47}ficar {\k41}tonto, {\k23}pra {\k27}que {\k11}é {\k13}que {\k13}eu {\k19}vou {\k40}beber? 
+Dialogue: 0,0:01:42.34,0:01:46.71,Default,,0,0,0,,{\k100}{\k25}Sem {\k58}cerveja {\k8}e {\k21}sem {\k84}Cachaça {\k4}a {\k42}gente {\k30}faz {\k11}a {\k54}folia 
+Dialogue: 0,0:01:45.89,0:01:50.22,Default,,0,0,0,,{\k100}{\k36}Fico {\k43}tonto {\k12}de {\k57}emoção {\k16}e {\k10}me {\k76}embriago {\k9}de {\k74}alegria 
+Dialogue: 0,0:01:49.47,0:01:53.59,Default,,0,0,0,,{\k100}{\k24}Nóis {\k29}bebe {\k8}é {\k113}Guaraná, {\k22}nóis {\k27}bebe {\k11}é {\k78}Guaraná 
+Dialogue: 0,0:01:52.59,0:01:57.21,Default,,0,0,0,,{\k100}{\k72}Cachaça {\k46}deixa {\k14}de {\k62}fogo {\k9}e {\k30}faz {\k14}a {\k41}gente {\k74}brigar 
+Dialogue: 0,0:01:56.41,0:02:00.44,Default,,0,0,0,,{\k100}{\k18}Nóis {\k27}bebe {\k10}é {\k112}Guaraná, {\k20}nóis {\k28}bebe {\k12}é {\k76}Guaraná 
+Dialogue: 0,0:01:59.44,0:02:03.79,Default,,0,0,0,,{\k100}{\k68}Cachaça {\k63}atrapalha {\k6}a {\k46}voz {\k17}e {\k26}nóis {\k39}gosta {\k18}de {\k52}cantar 
+Dialogue: 0,0:02:02.99,0:02:07.31,Default,,0,0,0,,{\k100}{\k37}Outro {\k44}dia {\k20}meu {\k57}amigo {\k38}encheu {\k10}a {\k47}cara {\k15}de {\k64}cerveja 
+Dialogue: 0,0:02:06.44,0:02:10.67,Default,,0,0,0,,{\k100}{\k34}Dançou {\k36}rock {\k10}a {\k31}noite {\k48}inteira {\k45}achando {\k15}que {\k24}era {\k80}sertaneja 
+Dialogue: 0,0:02:09.67,0:02:14.03,Default,,0,0,0,,{\k100}{\k56}Foi {\k39}embora {\k95}embriagado, {\k90}cambaleando {\k17}na {\k39}rua 
+Dialogue: 0,0:02:13.29,0:02:17.66,Default,,0,0,0,,{\k100}{\k42}Entrou {\k13}na {\k46}casa {\k29}dos {\k42}outros {\k59}achando {\k31}que {\k24}era {\k51}sua 
+Dialogue: 0,0:02:16.91,0:02:20.98,Default,,0,0,0,,{\k100}{\k24}Nóis {\k28}bebe {\k10}é {\k109}Guaraná, {\k23}nóis {\k27}bebe {\k9}é {\k77}Guaraná 
+Dialogue: 0,0:02:19.98,0:02:24.68,Default,,0,0,0,,{\k100}{\k76}Cachaça {\k43}deixa {\k14}de {\k61}fogo {\k10}e {\k31}faz {\k14}a {\k41}gente {\k80}brigar 
+Dialogue: 0,0:02:23.78,0:02:27.85,Default,,0,0,0,,{\k100}{\k22}Nóis {\k26}bebe {\k11}é {\k112}Guaraná, {\k17}nóis {\k31}bebe {\k9}é {\k79}Guaraná 
+Dialogue: 0,0:02:26.85,0:02:31.60,Default,,0,0,0,,{\k100}{\k69}Cachaça {\k65}atrapalha {\k2}a {\k51}voz {\k16}e {\k24}nóis {\k42}gosta {\k16}de {\k90}cantar 
+Dialogue: 0,0:02:30.64,0:02:34.69,Default,,0,0,0,,{\k100}{\k22}Nóis {\k27}bebe {\k7}é {\k117}Guaraná, {\k17}nóis {\k32}bebe {\k7}é {\k76}Guaraná 
+Dialogue: 0,0:02:33.69,0:02:38.25,Default,,0,0,0,,{\k100}{\k75}Cachaça {\k43}deixa {\k14}de {\k64}fogo {\k7}e {\k31}faz {\k13}a {\k41}gente {\k68}brigar 
+Dialogue: 0,0:02:37.46,0:02:41.53,Default,,0,0,0,,{\k100}{\k21}Nóis {\k30}bebe {\k8}é {\k114}Guaraná, {\k22}nóis {\k27}bebe {\k15}é {\k70}Guaraná 
+Dialogue: 0,0:02:40.53,0:02:45.31,Default,,0,0,0,,{\k100}{\k72}Cachaça {\k64}atrapalha {\k3}a {\k35}voz {\k3}e {\k53}nóis {\k41}gosta {\k16}de {\k91}cantar 
+Dialogue: 0,0:02:47.79,0:02:49.89,Default,,0,0,0,,{\k100}{\k20}Nóis {\k22}bebe {\k31}é {\k37}Guaraná! 

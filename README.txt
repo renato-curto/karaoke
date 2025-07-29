@@ -47,7 +47,7 @@ whisperx guarana_vocals.mp3 --model large --language pt
 
 # ajustar/corrigir a letra manualmente
 
-# converter e normalizar vocals para 16 kHz mono wav
+# converter e normalizar os vocais para 16 kHz mono wav
 
 ffmpeg -i guarana_vocals.mp3 -ac 1 -ar 16000 -af "dynaudnorm" guarana_vocals.wav
 
@@ -61,11 +61,13 @@ ffmpeg -i guarana_vocals.mp3 -ac 1 -ar 16000 -af "dynaudnorm" guarana_vocals.wav
 
 mfa align guarana portuguese_mfa portuguese_mfa guarana_aligned --clean --verbose --beam 400 --retry_beam 800
 
-./textGrid2json.py guarana_vocals.TextGrid  guarana_vocals.json
-./restoreCase.py guarana_vocals.txt guarana_vocals.json guarana_vocals_restored.json
-./json_to_ass.py guarana_vocals_restored.json guarana_vocals.ass
+# converte '.TextGrid' para '.ass'
 
-ffmpeg -loop 1 -i background.jpg -i guarana_instruments.mp3 -vf "ass=lyrics.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest karaoke.mp4
+./textgrid2ass.py guarana_vocals.TextGrid guarana_vocals.txt guarana_vocals.ass
+
+# cria o vídeo
+
+ffmpeg -loop 1 -i background.jpg -i guarana_instruments.mp3 -vf "ass=guarana_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest guarana_karaoke.mp4
 
 # links
 
