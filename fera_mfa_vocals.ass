@@ -1,0 +1,73 @@
+[Script Info]
+PlayResX: 1920
+PlayResY: 1080
+Title: Legendas Convertidas
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,80,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
+Style: Credits,Arial,80,&H0000FFFF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,2,2,5,10,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Credits,,0,0,0,,Wireless Safadão - O Fera da Tedê
+Dialogue: 0,0:00:00.00,0:00:00.00,Credits,,0,0,0,,Legendado por Renato Curto Rodrigues
+Dialogue: 0,0:00:00.00,0:00:03.30,Default,,0,0,0,,{\k22}Alô {\k194}Tedê! {\k30}Foca {\k11}no {\k73}recado! 
+Dialogue: 0,0:00:02.50,0:00:06.16,Default,,0,0,0,,{\k100}{\k41}Larga {\k38}tudo {\k11}que {\k22}hoje {\k6}a {\k48}festa {\k5}é {\k18}do {\k77}Alê! 
+Dialogue: 0,0:00:07.99,0:00:11.35,Default,,0,0,0,,{\k100}{\k23}Olha {\k2}a {\k84}pisadinha, {\k35}forró {\k14}no {\k78}paredão 
+Dialogue: 0,0:00:10.58,0:00:13.80,Default,,0,0,0,,{\k100}{\k26}Nada {\k31}de {\k50}Xandinho, {\k21}seu {\k38}nome {\k4}é {\k52}Xandão! 
+Dialogue: 0,0:00:12.93,0:00:16.56,Default,,0,0,0,,{\k100}{\k55}Chefia {\k12}no {\k65}churrasco, {\k20}no {\k39}vídeo {\k8}é {\k64}carrasco 
+Dialogue: 0,0:00:15.56,0:00:19.18,Default,,0,0,0,,{\k100}{\k15}Te {\k36}filma {\k73}escondido {\k7}e {\k49}divulga {\k19}teu {\k63}fiasco! 
+Dialogue: 0,0:00:18.31,0:00:21.60,Default,,0,0,0,,{\k100}{\k44}Super {\k83}empolgado, {\k3}o {\k34}fera {\k12}da {\k53}Tedê 
+Dialogue: 0,0:00:20.78,0:00:24.71,Default,,0,0,0,,{\k100}{\k46}Precisa {\k14}de {\k20}uma {\k47}ajuda? {\k15}É {\k17}só {\k31}chamar {\k3}o {\k100}Alê! 
+Dialogue: 0,0:00:26.16,0:00:29.45,Default,,0,0,0,,{\k100}{\k39}Presta {\k53}atenção {\k16}que {\k17}não {\k33}quero {\k71}confusão 
+Dialogue: 0,0:00:28.56,0:00:31.96,Default,,0,0,0,,{\k100}{\k14}Não {\k35}chama {\k10}de {\k58}Xandinho {\k31}senão {\k22}vem {\k7}um {\k63}palavrão 
+Dialogue: 0,0:00:31.17,0:00:34.71,Default,,0,0,0,,{\k100}{\k58}Alexandre {\k3}é {\k19}seu {\k47}nome, {\k48}respeita {\k18}meu {\k61}garoto 
+Dialogue: 0,0:00:33.71,0:00:37.25,Default,,0,0,0,,{\k100}{\k48}Guerreiro {\k85}tailandês, {\k14}te {\k31}quebra {\k4}e {\k33}deixa {\k39}roto 
+Dialogue: 0,0:00:36.38,0:00:39.82,Default,,0,0,0,,{\k100}{\k27}Onde {\k18}quer {\k7}que {\k22}ele {\k42}chegue {\k7}o {\k45}sucesso {\k5}é {\k71}natural 
+Dialogue: 0,0:00:38.95,0:00:42.39,Default,,0,0,0,,{\k100}{\k17}Mas {\k11}na {\k25}frente {\k16}do {\k43}espelho {\k14}não {\k26}se {\k23}acha {\k69}maioral 
+Dialogue: 0,0:00:41.54,0:00:45.13,Default,,0,0,0,,{\k100}{\k12}No {\k39}Tinder {\k28}todo {\k47}dia, {\k50}procura {\k18}por {\k65}coroa 
+Dialogue: 0,0:00:44.30,0:00:47.56,Default,,0,0,0,,{\k100}{\k14}Tem {\k10}que {\k24}ser {\k52}gostosa {\k10}e {\k16}na {\k30}cama {\k20}uma {\k50}leoa 
+Dialogue: 0,0:00:46.56,0:00:50.16,Default,,0,0,0,,{\k100}{\k25}Quando {\k3}o {\k32}câmbio {\k3}é {\k69}manual {\k13}o {\k42}vexame {\k5}é {\k68}federal 
+Dialogue: 0,0:00:49.19,0:00:52.69,Default,,0,0,0,,{\k100}{\k9}O {\k50}carona {\k33}logo {\k32}grita: {\k28}troca {\k3}a {\k32}marcha, {\k63}animal! 
+Dialogue: 0,0:00:51.69,0:00:55.33,Default,,0,0,0,,{\k100}{\k33}Carro {\k41}velho, {\k57}manual, {\k34}câmbio, {\k47}freio, {\k52}embreagem? 
+Dialogue: 0,0:00:54.33,0:00:58.03,Default,,0,0,0,,{\k100}{\k29}Muita {\k34}calma, {\k31}sangue {\k45}frio {\k5}e {\k36}também {\k29}muita {\k61}coragem! 
+Dialogue: 0,0:00:57.09,0:01:00.59,Default,,0,0,0,,{\k100}{\k49}Raivoso {\k13}no {\k68}pedal, {\k47}asfalto {\k17}já {\k56}beijou 
+Dialogue: 0,0:00:59.88,0:01:03.08,Default,,0,0,0,,{\k100}{\k28}Paga {\k14}de {\k50}piloto {\k25}mas {\k6}a {\k35}chuva {\k62}derrubou 
+Dialogue: 0,0:01:02.30,0:01:05.83,Default,,0,0,0,,{\k100}{\k39}Pneu {\k96}arrebentado {\k6}é {\k30}só {\k20}uma {\k62}rotina 
+Dialogue: 0,0:01:05.03,0:01:08.55,Default,,0,0,0,,{\k100}{\k30}Leva {\k11}na {\k71}esportiva, {\k44}movido {\k2}a {\k94}adrenalina 
+Dialogue: 0,0:01:07.66,0:01:11.01,Default,,0,0,0,,{\k100}{\k26}Olha {\k2}a {\k80}pisadinha, {\k38}forró {\k12}no {\k77}paredão 
+Dialogue: 0,0:01:10.25,0:01:13.44,Default,,0,0,0,,{\k100}{\k30}Nada {\k8}de {\k68}Xandinho, {\k23}seu {\k37}nome {\k4}é {\k49}Xandão! 
+Dialogue: 0,0:01:12.61,0:01:16.23,Default,,0,0,0,,{\k100}{\k55}Chefia {\k9}no {\k63}churrasco, {\k24}no {\k38}vídeo {\k8}é {\k65}carrasco 
+Dialogue: 0,0:01:15.23,0:01:18.89,Default,,0,0,0,,{\k100}{\k15}Te {\k35}filma {\k75}escondido {\k7}e {\k49}divulga {\k19}teu {\k66}fiasco! 
+Dialogue: 0,0:01:17.94,0:01:21.24,Default,,0,0,0,,{\k100}{\k48}Super {\k81}empolgado, {\k3}o {\k37}fera {\k11}da {\k50}Tedê 
+Dialogue: 0,0:01:20.45,0:01:24.70,Default,,0,0,0,,{\k100}{\k47}Precisa {\k13}de {\k20}uma {\k50}ajuda? {\k12}É {\k15}só {\k39}chamar {\k6}o {\k100}Alê! 
+Dialogue: 0,0:01:25.68,0:01:29.02,Default,,0,0,0,,{\k100}{\k7}No {\k40}churras {\k7}da {\k57}Tedê {\k27}paga {\k35}sempre {\k14}de {\k47}patrão 
+Dialogue: 0,0:01:28.02,0:01:31.59,Default,,0,0,0,,{\k100}{\k21}Pão {\k24}de {\k23}alho, {\k64}maionese, {\k31}carne, {\k44}queijo {\k7}e {\k43}carvão 
+Dialogue: 0,0:01:30.68,0:01:34.26,Default,,0,0,0,,{\k100}{\k11}No {\k37}café {\k10}de {\k94}aniversário {\k5}é {\k36}sempre {\k65}diretor 
+Dialogue: 0,0:01:33.38,0:01:36.86,Default,,0,0,0,,{\k100}{\k22}Seu {\k30}vídeo {\k15}de {\k47}zoeira {\k27}toca {\k5}em {\k44}todos {\k8}o {\k50}terror 
+Dialogue: 0,0:01:36.14,0:01:39.40,Default,,0,0,0,,{\k100}{\k35}Mestre {\k11}na {\k76}impressão, {\k7}é {\k34}quase {\k20}sem {\k43}rival 
+Dialogue: 0,0:01:38.47,0:01:42.01,Default,,0,0,0,,{\k100}{\k27}Toda {\k33}peça {\k10}que {\k22}ele {\k56}faz {\k10}é {\k22}mais {\k8}que {\k66}especial 
+Dialogue: 0,0:01:41.21,0:01:44.63,Default,,0,0,0,,{\k100}{\k27}Quitou {\k14}o {\k30}seu {\k37}apê {\k28}com {\k48}afinco {\k6}e {\k52}coragem 
+Dialogue: 0,0:01:43.63,0:01:47.24,Default,,0,0,0,,{\k100}{\k30}Só {\k29}falta {\k3}o {\k67}BYD {\k20}lá {\k45}embaixo {\k18}na {\k49}garagem 
+Dialogue: 0,0:01:46.43,0:01:49.80,Default,,0,0,0,,{\k100}{\k39}Durante {\k4}o {\k84}futebol {\k11}é {\k40}raio, {\k59}explosão 
+Dialogue: 0,0:01:49.03,0:01:52.35,Default,,0,0,0,,{\k100}{\k13}Mas {\k28}quando {\k30}perde {\k3}um {\k32}jogo {\k29}logo {\k38}arruma {\k59}confusão 
+Dialogue: 0,0:01:51.74,0:01:54.99,Default,,0,0,0,,{\k100}{\k27}Corre {\k4}o {\k29}tempo {\k78}todo, {\k87}incansavelmente 
+Dialogue: 0,0:01:54.18,0:01:57.64,Default,,0,0,0,,{\k100}{\k47}Derruba {\k39}qualquer {\k20}um {\k20}que {\k36}ficar {\k12}na {\k34}sua {\k38}frente 
+Dialogue: 0,0:01:56.78,0:02:00.19,Default,,0,0,0,,{\k100}{\k33}Depois {\k43}daquele {\k71}peido {\k25}veio {\k5}um {\k64}defeito 
+Dialogue: 0,0:01:59.37,0:02:02.74,Default,,0,0,0,,{\k100}{\k35}Depois {\k7}da {\k75}operação {\k8}o {\k18}seu {\k16}cu {\k33}ficou {\k45}perfeito 
+Dialogue: 0,0:02:01.97,0:02:05.29,Default,,0,0,0,,{\k100}{\k45}Doutora {\k32}muito {\k49}linda, {\k49}morena {\k33}nota {\k24}mil 
+Dialogue: 0,0:02:04.29,0:02:08.05,Default,,0,0,0,,{\k100}{\k22}Se {\k44}perdeu {\k39}alguma {\k33}prega, {\k31}ninguém {\k34}sabe, {\k35}ninguém {\k38}viu! 
+Dialogue: 0,0:02:07.34,0:02:10.67,Default,,0,0,0,,{\k100}{\k25}Olha {\k2}a {\k81}pisadinha, {\k35}forró {\k13}no {\k77}paredão 
+Dialogue: 0,0:02:09.95,0:02:13.11,Default,,0,0,0,,{\k100}{\k27}Nada {\k11}de {\k65}Xandinho, {\k22}seu {\k40}nome {\k3}é {\k48}Xandão! 
+Dialogue: 0,0:02:12.28,0:02:15.89,Default,,0,0,0,,{\k100}{\k54}Chefia {\k11}no {\k68}churrasco, {\k18}no {\k40}vídeo {\k7}é {\k63}carrasco 
+Dialogue: 0,0:02:14.89,0:02:18.46,Default,,0,0,0,,{\k100}{\k15}Te {\k38}filma {\k73}escondido {\k7}e {\k49}divulga {\k15}teu {\k60}fiasco! 
+Dialogue: 0,0:02:17.60,0:02:21.08,Default,,0,0,0,,{\k100}{\k49}Super {\k78}empolgado, {\k4}o {\k38}fera {\k13}da {\k66}Tedê 
+Dialogue: 0,0:02:20.08,0:02:24.12,Default,,0,0,0,,{\k100}{\k51}Precisa {\k9}de {\k24}uma {\k52}ajuda? {\k10}É {\k16}só {\k39}chamar {\k3}o {\k100}Alê! 
+Dialogue: 0,0:02:23.93,0:02:28.51,Default,,0,0,0,,{\k100}{\k57}Churrasco {\k196}liberado, {\k27}corre {\k19}pro {\k59}abraço 
+Dialogue: 0,0:02:27.90,0:02:31.48,Default,,0,0,0,,{\k100}{\k25}Mas {\k22}nada {\k9}de {\k62}Xandinho, {\k8}se {\k37}quiser {\k8}o {\k18}teu {\k69}pedaço 
+Dialogue: 0,0:02:32.91,0:02:36.77,Default,,0,0,0,,{\k100}{\k22}Não {\k50}chuta {\k7}a {\k150}bola! {\k57}Carai! 

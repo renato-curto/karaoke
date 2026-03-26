@@ -1,4 +1,4 @@
-ffmpeg -i guaraná.webm -o guarana.wav
+ffmpeg -i guaraná.webm guarana.wav
 
 # separar vocais e instrumentos
 
@@ -69,6 +69,11 @@ mfa align guarana portuguese_mfa portuguese_mfa guarana_aligned --clean --verbos
 
 ffmpeg -loop 1 -i background.jpg -i guarana_instruments.mp3 -vf "ass=guarana_vocals.ass" -c:v libx264 -preset veryfast -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest guarana_karaoke.mp4
 
+# cria vídeo para overlay no "Premiere"
+
+./ffmpeg/bin/ffmpeg -f lavfi -i color=color=0x00FF00:size=1920x1080:duration=159 -i fera.mp3 -vf "subtitles=fera.ass,format=rgba,colorkey=0x00FF00:0.5:0.0" -map 0:v -map 1:a -c:v prores_ks -profile:v 4 -pix_fmt yuva444p10le -c:a pcm_s16le -shortest legenda_alpha_5.mov
+
+
 # links
 
 https://jsonformatter.org/
@@ -76,3 +81,4 @@ https://github.com/m-bain/whisperX
 https://www.anaconda.com/docs/getting-started/miniconda/main
 https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner
 
+https://www.gyan.dev/ffmpeg/builds/ (download ffmpeg-release-full.7z)
