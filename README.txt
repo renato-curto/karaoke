@@ -40,6 +40,10 @@ mfa model download g2p portuguese_mfa
 
 conda deactivate
 
+# separa o audio do vídeo
+
+ffmpeg -i Maria\ Minha.mp4 -vn -acodec copy Maria\ Minha.m4a
+
 # reconhecimento da letra
 
 # whisperx guarana_vocals.mp3 --model large --language pt --align_model jonatasgrosman/wav2vec2-large-xlsr-53-portuguese --segment_resolution sentence
@@ -60,6 +64,8 @@ ffmpeg -i guarana_vocals.mp3 -ac 1 -ar 16000 -af "dynaudnorm" guarana_vocals.wav
 # alinhamento forçado
 
 mfa align guarana portuguese_mfa portuguese_mfa guarana_aligned --clean --verbose --beam 400 --retry_beam 800
+
+# verifique o '.TextGrid', procure <unk> e conserte
 
 # converte '.TextGrid' para '.ass'
 

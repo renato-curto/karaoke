@@ -1,0 +1,72 @@
+[Script Info]
+PlayResX: 1920
+PlayResY: 1080
+Title: Legendas Convertidas
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
+Style: Credits,Arial,80,&H0000FFFF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,2,2,5,10,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:20.61,Credits,,0,0,0,,Gilberto Gil - Maria Minha
+Dialogue: 0,0:00:00.00,0:00:20.61,Credits,,0,0,0,,Legendado por Renato Curto Rodrigues
+Dialogue: 0,0:00:20.61,0:00:26.26,Default,,0,0,0,,{\k100}{\k83}Maria {\k89}minha, {\k31}sai {\k25}dessa {\k62}cozinha, {\k10}o {\k38}café {\k48}pode {\k79}esperar 
+Dialogue: 0,0:00:25.26,0:00:29.12,Default,,0,0,0,,{\k100}{\k14}Vem {\k38}ficar {\k12}na {\k34}rede {\k11}que {\k19}eu {\k25}armei {\k26}pra {\k53}gente {\k54}amar 
+Dialogue: 0,0:00:28.15,0:00:32.22,Default,,0,0,0,,{\k100}{\k15}Se {\k58}balançar, {\k35}brincar {\k13}de {\k39}vai {\k14}e {\k133}vem 
+Dialogue: 0,0:00:31.66,0:00:37.06,Default,,0,0,0,,{\k100}{\k92}Maria {\k98}minha, {\k20}vem {\k8}que {\k11}eu {\k15}tô {\k47}disposto {\k2}a {\k17}te {\k44}fazer {\k86}feliz 
+Dialogue: 0,0:00:36.37,0:00:39.76,Default,,0,0,0,,{\k100}{\k18}Vem {\k8}que {\k7}eu {\k37}faço {\k3}o {\k28}gosto {\k35}como {\k37}sempre {\k66}fiz 
+Dialogue: 0,0:00:39.17,0:00:43.02,Default,,0,0,0,,{\k100}{\k18}Vem {\k31}minha {\k54}rainha, {\k17}diz {\k9}que {\k9}eu {\k27}sou {\k29}seu {\k91}rei 
+Dialogue: 0,0:00:42.83,0:00:48.56,Default,,0,0,0,,{\k100}{\k91}Maria {\k91}minha, {\k32}sai {\k29}dessa {\k64}cozinha, {\k8}o {\k37}café {\k54}pode {\k67}esperar 
+Dialogue: 0,0:00:47.56,0:00:51.45,Default,,0,0,0,,{\k100}{\k19}Vem {\k37}ficar {\k9}na {\k40}rede {\k7}que {\k17}eu {\k29}armei {\k26}pra {\k52}gente {\k53}amar 
+Dialogue: 0,0:00:50.48,0:00:54.53,Default,,0,0,0,,{\k100}{\k19}Se {\k58}balançar, {\k36}brincar {\k12}de {\k40}vai {\k9}e {\k131}vem 
+Dialogue: 0,0:00:54.33,0:00:59.43,Default,,0,0,0,,{\k100}{\k53}Maria {\k100}minha, {\k23}vem {\k8}que {\k11}eu {\k16}tô {\k46}disposto {\k6}a {\k16}te {\k51}fazer {\k80}feliz 
+Dialogue: 0,0:00:58.69,0:01:02.26,Default,,0,0,0,,{\k100}{\k19}Vem {\k7}que {\k8}eu {\k32}faço {\k3}o {\k37}gosto {\k28}como {\k40}sempre {\k83}fiz 
+Dialogue: 0,0:01:01.26,0:01:05.65,Default,,0,0,0,,{\k100}{\k46}Vem {\k26}minha {\k54}rainha, {\k19}diz {\k6}que {\k12}eu {\k19}sou {\k37}seu {\k120}rei 
+Dialogue: 0,0:01:05.52,0:01:09.21,Default,,0,0,0,,{\k100}{\k16}Vem {\k34}vida {\k70}minha, {\k34}minha {\k35}vida {\k20}vem {\k60}reinar 
+Dialogue: 0,0:01:08.33,0:01:12.01,Default,,0,0,0,,{\k100}{\k42}Vontade {\k75}minha, {\k2}a {\k52}vontade {\k14}de {\k12}te {\k71}agradar 
+Dialogue: 0,0:01:11.11,0:01:14.80,Default,,0,0,0,,{\k100}{\k10}No {\k24}fim {\k12}da {\k36}linha {\k25}nem {\k56}sempre {\k5}é {\k32}ponto {\k69}final 
+Dialogue: 0,0:01:13.93,0:01:17.58,Default,,0,0,0,,{\k100}{\k6}O {\k31}amor {\k6}é {\k36}todo {\k37}dia {\k34}mesmo {\k26}sem {\k35}ser {\k54}igual 
+Dialogue: 0,0:01:16.71,0:01:20.23,Default,,0,0,0,,{\k100}{\k28}Também {\k18}com {\k32}tanto {\k36}dengo, {\k20}com {\k26}tanto {\k92}chamego 
+Dialogue: 0,0:01:19.23,0:01:22.78,Default,,0,0,0,,{\k100}{\k21}Te {\k34}peço, {\k53}Maria {\k35}minha, {\k15}não {\k18}me {\k16}dê {\k63}sossego 
+Dialogue: 0,0:01:22.28,0:01:25.58,Default,,0,0,0,,{\k100}{\k32}Também {\k16}com {\k33}tanto {\k36}dengo, {\k17}com {\k28}tanto {\k68}chamego 
+Dialogue: 0,0:01:24.85,0:01:29.10,Default,,0,0,0,,{\k100}{\k18}Te {\k32}peço, {\k54}Maria {\k37}minha, {\k18}não {\k16}me {\k27}dê {\k123}sossego 
+Dialogue: 0,0:01:38.76,0:01:44.38,Default,,0,0,0,,{\k100}{\k83}Maria {\k89}minha, {\k28}sai {\k26}dessa {\k62}cozinha, {\k11}o {\k43}café {\k44}pode {\k76}esperar 
+Dialogue: 0,0:01:43.38,0:01:47.29,Default,,0,0,0,,{\k100}{\k17}Vem {\k36}ficar {\k11}na {\k35}rede {\k9}que {\k21}eu {\k25}armei {\k27}pra {\k52}gente {\k58}amar 
+Dialogue: 0,0:01:46.32,0:01:50.30,Default,,0,0,0,,{\k100}{\k13}Se {\k59}balançar, {\k34}brincar {\k13}de {\k31}vai {\k4}e {\k144}vem 
+Dialogue: 0,0:01:49.79,0:01:55.22,Default,,0,0,0,,{\k100}{\k92}Maria {\k100}minha, {\k20}vem {\k7}que {\k8}eu {\k17}tô {\k47}disposto {\k2}a {\k17}te {\k44}fazer {\k89}feliz 
+Dialogue: 0,0:01:54.54,0:01:57.95,Default,,0,0,0,,{\k100}{\k15}Vem {\k8}que {\k7}eu {\k31}faço {\k1}o {\k35}gosto {\k33}como {\k38}sempre {\k73}fiz 
+Dialogue: 0,0:01:57.30,0:02:01.47,Default,,0,0,0,,{\k100}{\k18}Vem {\k30}minha {\k55}rainha, {\k16}diz {\k9}que {\k7}eu {\k22}sou {\k36}seu {\k124}rei 
+Dialogue: 0,0:02:00.97,0:02:06.71,Default,,0,0,0,,{\k100}{\k92}Maria {\k92}minha, {\k30}sai {\k30}dessa {\k60}cozinha, {\k11}o {\k37}café {\k56}pode {\k66}esperar 
+Dialogue: 0,0:02:05.71,0:02:09.59,Default,,0,0,0,,{\k100}{\k22}Vem {\k33}ficar {\k10}na {\k38}rede {\k8}que {\k18}eu {\k27}armei {\k27}pra {\k52}gente {\k53}amar 
+Dialogue: 0,0:02:08.62,0:02:12.67,Default,,0,0,0,,{\k100}{\k20}Se {\k56}balançar, {\k36}brincar {\k12}de {\k37}vai {\k4}e {\k140}vem 
+Dialogue: 0,0:02:12.15,0:02:17.68,Default,,0,0,0,,{\k100}{\k90}Maria {\k100}minha, {\k17}vem {\k7}que {\k12}eu {\k14}tô {\k50}disposto {\k5}a {\k17}te {\k47}fazer {\k94}feliz 
+Dialogue: 0,0:02:16.85,0:02:20.36,Default,,0,0,0,,{\k100}{\k17}Vem {\k6}que {\k9}eu {\k33}faço {\k3}o {\k36}gosto {\k29}como {\k38}sempre {\k80}fiz 
+Dialogue: 0,0:02:19.65,0:02:23.86,Default,,0,0,0,,{\k100}{\k21}Vem {\k28}minha {\k54}rainha, {\k16}diz {\k8}que {\k8}eu {\k23}sou {\k36}seu {\k127}rei 
+Dialogue: 0,0:02:23.33,0:02:27.47,Default,,0,0,0,,{\k100}{\k27}Vem {\k56}vida {\k70}minha, {\k35}minha {\k33}vida {\k20}vem {\k73}reinar 
+Dialogue: 0,0:02:26.50,0:02:29.92,Default,,0,0,0,,{\k100}{\k43}Vontade {\k69}minha, {\k2}a {\k53}vontade {\k16}de {\k11}te {\k48}agradar 
+Dialogue: 0,0:02:29.30,0:02:32.87,Default,,0,0,0,,{\k100}{\k7}No {\k24}fim {\k11}da {\k37}linha {\k23}nem {\k54}sempre {\k7}é {\k32}ponto {\k62}final 
+Dialogue: 0,0:02:31.90,0:02:35.58,Default,,0,0,0,,{\k100}{\k19}O {\k34}amor {\k7}é {\k36}todo {\k35}dia {\k34}mesmo {\k25}sem {\k36}ser {\k42}igual 
+Dialogue: 0,0:02:34.85,0:02:38.04,Default,,0,0,0,,{\k100}{\k30}Também {\k17}com {\k31}tanto {\k36}dengo, {\k20}com {\k29}tanto {\k56}chamego 
+Dialogue: 0,0:02:37.43,0:02:40.92,Default,,0,0,0,,{\k100}{\k11}Te {\k41}peço, {\k49}Maria {\k35}minha, {\k22}não {\k14}me {\k17}dê {\k60}sossego 
+Dialogue: 0,0:02:40.41,0:02:44.00,Default,,0,0,0,,{\k100}{\k32}Também {\k16}com {\k34}tanto {\k36}dengo, {\k17}com {\k27}tanto {\k97}chamego 
+Dialogue: 0,0:02:43.00,0:02:47.57,Default,,0,0,0,,{\k100}{\k14}Te {\k37}peço, {\k50}Maria {\k35}minha, {\k17}não {\k17}me {\k33}dê {\k154}sossego 
+Dialogue: 0,0:03:08.07,0:03:13.72,Default,,0,0,0,,{\k100}{\k78}Maria {\k92}minha, {\k33}sai {\k25}dessa {\k63}cozinha, {\k7}o {\k39}café {\k51}pode {\k77}esperar 
+Dialogue: 0,0:03:12.72,0:03:16.61,Default,,0,0,0,,{\k100}{\k15}Vem {\k35}ficar {\k12}na {\k36}rede {\k13}que {\k16}eu {\k23}armei {\k28}pra {\k52}gente {\k59}amar 
+Dialogue: 0,0:03:15.64,0:03:19.79,Default,,0,0,0,,{\k100}{\k14}Se {\k59}balançar, {\k34}brincar {\k15}de {\k44}vai {\k13}e {\k136}vem 
+Dialogue: 0,0:03:19.09,0:03:24.54,Default,,0,0,0,,{\k100}{\k92}Maria {\k102}minha, {\k18}vem {\k7}que {\k8}eu {\k18}tô {\k45}disposto {\k3}a {\k17}te {\k42}fazer {\k93}feliz 
+Dialogue: 0,0:03:23.82,0:03:27.27,Default,,0,0,0,,{\k100}{\k17}Vem {\k7}que {\k8}eu {\k34}faço {\k3}o {\k29}gosto {\k36}como {\k37}sempre {\k74}fiz 
+Dialogue: 0,0:03:26.59,0:03:30.08,Default,,0,0,0,,{\k100}{\k21}Vem {\k31}minha {\k54}rainha, {\k16}diz {\k9}que {\k7}eu {\k23}sou {\k33}seu {\k55}rei 
+Dialogue: 0,0:03:29.08,0:03:34.33,Default,,0,0,0,,{\k100}{\k151}Vem {\k53}vida {\k70}minha, {\k36}minha {\k35}vida {\k18}vem {\k62}reinar 
+Dialogue: 0,0:03:33.47,0:03:37.22,Default,,0,0,0,,{\k100}{\k44}Vontade {\k69}minha, {\k2}a {\k54}vontade {\k15}de {\k10}te {\k81}agradar 
+Dialogue: 0,0:03:36.25,0:03:40.01,Default,,0,0,0,,{\k100}{\k7}No {\k24}fim {\k12}da {\k36}linha {\k26}nem {\k53}sempre {\k6}é {\k30}ponto {\k82}final 
+Dialogue: 0,0:03:39.01,0:03:42.62,Default,,0,0,0,,{\k100}{\k5}O {\k34}amor {\k10}é {\k33}todo {\k40}dia {\k30}mesmo {\k25}sem {\k36}ser {\k48}igual 
+Dialogue: 0,0:03:41.83,0:03:45.01,Default,,0,0,0,,{\k100}{\k29}Também {\k18}com {\k33}tanto {\k34}dengo, {\k11}com {\k37}tanto {\k56}chamego 
+Dialogue: 0,0:03:44.40,0:03:47.84,Default,,0,0,0,,{\k100}{\k16}Te {\k41}peço, {\k44}Maria {\k35}minha, {\k20}não {\k10}me {\k21}dê {\k57}sossego 
+Dialogue: 0,0:03:47.39,0:03:50.98,Default,,0,0,0,,{\k100}{\k32}Também {\k17}com {\k33}tanto {\k41}dengo, {\k13}com {\k26}tanto {\k97}chamego 
+Dialogue: 0,0:03:49.98,0:03:54.65,Default,,0,0,0,,{\k100}{\k15}Te {\k33}peço, {\k71}Maria {\k19}minha, {\k20}não {\k12}me {\k32}dê {\k165}sossego 
